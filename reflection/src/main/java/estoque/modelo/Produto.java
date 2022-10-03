@@ -1,5 +1,8 @@
 package estoque.modelo;
 
+import estoque.anotacao.NomeTagXml;
+
+@NomeTagXml("produto")
 public class Produto extends SuperProduto{
 	private String nome;
 	private double valor;

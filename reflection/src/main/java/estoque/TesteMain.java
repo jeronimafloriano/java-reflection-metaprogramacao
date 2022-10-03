@@ -1,7 +1,10 @@
 package estoque;
 
+import estoque.dao.ProdutoDao;
+import estoque.dao.ProdutoDaoMock;
 import processador.protocolo.Processador;
 
+import java.util.AbstractCollection;
 import java.util.Scanner;
 
 public class TesteMain {
@@ -15,6 +18,7 @@ public class TesteMain {
 		/*
 		 * Casos possiveis:
 		 * /controlador/metodo
+		 * /produto/lista
 		 * /produto/filtra?nome=Produto 2&marca=Marca 1
 		 */
 		
@@ -22,6 +26,7 @@ public class TesteMain {
 			String url = s.nextLine();
 			
 			Processador processador = new Processador("estoque.controle.");
+			processador.registra(ProdutoDao.class, ProdutoDaoMock.class);
 			while (!url.equals("exit")) {
 				Object response = processador.executa(url);
 				
@@ -30,6 +35,7 @@ public class TesteMain {
 				url = s.nextLine();
 			}
 		}
+
 	}
 
 }
