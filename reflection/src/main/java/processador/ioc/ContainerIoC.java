@@ -50,16 +50,19 @@ public class ContainerIoC {
 
     }
 
-    public void registra(Class<ProdutoDao> classeTipoFonte, Class<ProdutoDaoMock> classeTipoDestino) {
-        boolean compativel = verificaCompatibilidade(classeTipoFonte, classeTipoDestino);
+    public <T, K extends T> void registra(Class<T> classeTipoFonte, Class<K> classeTipoDestino) {
+        /*boolean compativel = verificaCompatibilidade(classeTipoFonte, classeTipoDestino);
 
         if(!compativel) throw new ClassCastException("Não é possível resolver "
                 + classeTipoFonte.getName() + " para: " + classeTipoDestino.getName());
 
+         mapaDeTiposDeClasses.put(classeTipoFonte, classeTipoDestino);*/
+
+        ///TODO SSE CÓDIGO ACIMA E O MÉTODO 'verificaCompatibilidade' PODE SER RESUMIDO EM:
         mapaDeTiposDeClasses.put(classeTipoFonte, classeTipoDestino);
     }
 
-    private boolean verificaCompatibilidade(Class<ProdutoDao> classeTipoFonte, Class<ProdutoDaoMock> classeTipoDestino) {
+    /*private boolean verificaCompatibilidade(Class<?> classeTipoFonte, Class<?> classeTipoDestino) {
         /*VERIFICAÇÃO "NA MÃO":
         boolean compativel;
 
@@ -71,7 +74,8 @@ public class ContainerIoC {
                     || classeTipoDestino.equals(classeTipoFonte);
         }
         return compativel;
-    */
+
         return classeTipoFonte.isAssignableFrom(classeTipoDestino);
-    }
+    }*/
+
 }

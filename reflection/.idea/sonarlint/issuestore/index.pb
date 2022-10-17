@@ -11,3 +11,17 @@ Y
 )src/main/java/estoque/modelo/Produto.java,5\d\5d6c95f98ce7de6a8cd4cb5e41635574518c5af5
 e
 5src/main/java/processador/conversor/ConversorXML.java,9\8\98e5f1fdbe3356b19c0b542c3d19dfdd896b36b0
+`
+0src/main/java/processador/reflexao/Reflexao.java,0\6\06c1a9d5129a60ec34dac5c6d3392f9244ffad08
+Y
+)src/main/java/estoque/dao/ProdutoDao.java,7\2\72c2dff3d3ee810cb55af1f8fbc39f3a64871fd4
+]
+-src/main/java/estoque/dao/ProdutoDaoMock.java,0\b\0bb9e8929b16eab6306c00e956101e816bc6aa76
+e
+5src/main/java/estoque/controle/ProdutoController.java,b\f\bfd2d75d77898791950286f65afde96569145e32
+T
+$src/main/java/estoque/TesteMain.java,f\f\ff3cf28a5711491f2d1ebe60fb289fb116d0e914
+d
+4src/main/java/processador/protocolo/Processador.java,d\c\dca4dfc1f0e3a70ea4787a3a252b71956b4a9166
+_
+/src/main/java/processador/ioc/ContainerIoC.java,9\6\96b250d7265a3c945c21b40417e089e4e48bacc6

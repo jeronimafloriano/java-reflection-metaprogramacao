@@ -1,0 +1,16 @@
+
+`	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(˜ø«Ïüÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(ØÏ„çùÿÿÿÿ
+|
+java:S1488 "aImmediately return this expression instead of assigning it to the temporary variable "instancia".(šÆöİúÿÿÿÿ
+Q	java:S1256"<This block of commented-out lines of code should be removed.(õ¦é‘
+H
+java:S1135="2Complete the task associated to this TODO comment.(ŠĞùÕ
+Q	java:S125A"<This block of commented-out lines of code should be removed.(î°”ÿ
+N
+java:S1128"3Remove this unused import 'estoque.dao.ProdutoDao'.(ªëÂÜÿÿÿÿÿ
+M
+java:S1128"7Remove this unused import 'estoque.dao.ProdutoDaoMock'.(íÛ²

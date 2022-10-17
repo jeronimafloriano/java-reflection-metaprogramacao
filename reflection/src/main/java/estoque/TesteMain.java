@@ -27,6 +27,7 @@ public class TesteMain {
 			
 			Processador processador = new Processador("estoque.controle.");
 			processador.registra(ProdutoDao.class, ProdutoDaoMock.class);
+
 			while (!url.equals("exit")) {
 				Object response = processador.executa(url);
 				
